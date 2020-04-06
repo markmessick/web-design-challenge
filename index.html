@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NYC Crime Analysis</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+            <a class="navbar-brand" href="#">NYC Crime Analysis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Heatmap</a>
+                    <a class="dropdown-item" href="#">Most Dangerous Franchise</a>
+                    <a class="dropdown-item" href="#">Number of Restaurants</a>
+                    <a class="dropdown-item" href="#">Most Dangerous Restaurant</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comparison</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Data</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+        <div class="container">
+
+            <div class="jumbotron">
+              <center><h1 class="display-4">It All Started With a Simple Question...</h1>
+              <hr>
+              <p class="lead">Out of all the restaurants in NYC...</p>
+              <p class="lead">Which one are you most likely to get stabbed at?</p>
+              <hr>
+              <p>Hi, my name is Mark Messick. I'm a data scientist in training, and recently my team and I set out to determine which
+                restaurant in New York City is the most dangerous.</p>
+              <p>Our hypothesis? Definitely McDoanald's.</p>
+              <p>Granted, none of us were from New York. In fact, none of us had ever even been to a 
+                McDonald's in New York. But with almost no reasoning other than just a gut feeling, we all asserted that McDonald's is
+                the most dangerous restaurant in NYC. And then, with nothing more but a single CSV with 3 years worth of NYC arrest data,
+                we set out on a memorable journey to prove our point. </p>
+              <p>Let us show you what we found...</p></center>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Step #1: Plot a Heatmap of Violent Crimes</h5>
+                        <p class="card-text">See a breakdown of the most violent parts of NYC.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Step #2: Identify the Most Dangerous Franchise</h5>
+                        <p class="card-text">See the total number of violent crimes aggregated by franchise.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Step #3: Calculate the Number of Restuarants</h5>
+                        <p class="card-text">See the number of restaurants each franchise has.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Step #4: Identify the Most Dangerous Restaurant</h5>
+                        <p class="card-text">See the ratio of violent crimes per restaurant location for a more accurate represenatation of the most dangerous franchise.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Step #5: Final Conclusions</h5>
+                        <p class="card-text">See a comparison of all of our findings and our final analysis and conclusions.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bonus: See the Data</h5>
+                        <p class="card-text">Curious to see the tools we used to arrive at our conclusions? You can check out the data we used here.</p>
+                        <a href="#" class="btn btn-primary">View Now</a>
+                    </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        
+        </div>
+    </body>
+</html>

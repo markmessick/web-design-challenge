@@ -1,0 +1,29 @@
+body {
+    background-color: #F5F0D9;
+}
+
+.jumbotron {
+    background-color:#D4ECF9 !important; 
+}
+
+.card {
+    background-color: #D4ECF9;
+}
+
+.btn-primary {
+    background-color: #7DB46CFF !important;
+}
+
+.navbar-custom { 
+    background-color: #7DB46CFF !important; 
+} 
+
+/* .nav-item a:hover {
+    background-color: #05386B !important;
+    color: white !important;
+} */
+
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: white !important; 
+} 
