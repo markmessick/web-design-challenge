@@ -1,29 +1,25 @@
 body {
     background-color: #F5F0D9;
+    background-image: url("https://d3500i1ecak5li.cloudfront.net/s3fs-public/images/chapters/new_york_background.jpg");
 }
 
 .jumbotron {
-    background-color:#D4ECF9 !important; 
+    background-color:#8cb5c3 !important; 
 }
 
 .card {
-    background-color: #D4ECF9;
+    background-color: #8cb5c3;
 }
 
 .btn-primary {
-    background-color: #7DB46CFF !important;
+    background-color: #f3ad61 !important;
 }
 
 .navbar-custom { 
-    background-color: #7DB46CFF !important; 
-} 
-
-/* .nav-item a:hover {
-    background-color: #05386B !important;
-    color: white !important;
-} */
+    background-color: #f3ad61 !important; 
+}
 
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
-    color: white !important; 
+    color: black !important; 
 } 
