@@ -22,4 +22,8 @@ body {
 .navbar-custom .navbar-brand, 
 .navbar-custom .navbar-text { 
     color: black !important; 
-} 
+}
+
+.data_page{
+    background-color: white;
+}
